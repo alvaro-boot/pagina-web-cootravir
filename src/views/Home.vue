@@ -6,7 +6,7 @@
           <div class="hero-text">
             <div class="hero-badge">
               <span class="badge-icon">🛡️</span>
-              <span>Más de 30 años protegiendo lo que importa</span>
+              <span>Más de 50 años protegiendo lo que importa</span>
             </div>
             
             <h1>Proteger lo suyo es nuestro mayor compromiso</h1>
@@ -54,26 +54,26 @@
         
         <div class="grid-lineamientos1">
           <Card>
-            <svg-icon type="mdi" :path="'mdi-shield-check'"></svg-icon>
+            <span class="mdi mdi-cctv"></span>
             <H4>Vigilancia Física</H4>
             <p>Servicios de seguridad personalizada con profesionales altamente capacitados.</p>
           </Card>
           
           <Card>
-            <img src="/servicios/ifingerprint.png" alt="Control de Acceso">
+            <span class="mdi mdi-security"></span>
             <H4>Control de Acceso</H4>
             <p>Control de acceso a sus instalaciones con tecnología de vanguardia.</p>
           </Card>
           
           <Card>
-            <img src="/servicios/icctv.png" alt="Circuito Cerrado de Televisión">
+            <span class="mdi mdi-television-box"></span>
             <H4>Circuito Cerrado de Televisión</H4>
             <p>Monitoreo de instalaciones con sistemas de CCTV y cámaras de seguridad.</p>
             
           </Card>
           
           <Card>
-            <img src="/servicios/iladron.png" alt="Detección y Alarma">
+            <span class="mdi mdi-alarm-light"></span>
             <H4>Detección y Alarma</H4>
             <p>Detección y alarma de intrusos con sistemas de seguridad avanzados.</p>
 
@@ -121,42 +121,35 @@
           <div class="client-grid">
             <Card class="card-client">
               <img src="/clientes/cliente1.jpg" alt="ASUL">
-              <p class="client-name">ASUL</p>
+
             </Card>
 
             <Card class="card-client">
               <img src="/clientes/cliente2.jpg" alt="COOPLAROSA">
-              <p class="client-name">COOPLAROSA</p>
             </Card>
 
             <Card class="card-client">
               <img src="/clientes/cliente3.png" alt="FRACTURAS Y FRACTURAS">
-              <p class="client-name">FRACTURAS Y FRACTURAS</p>
             </Card>
 
             <Card class="card-client">
               <img src="/clientes/cliente4.jpg" alt="GERENCIAR">
-              <p class="client-name">GERENCIAR</p>
             </Card>
 
             <Card class="card-client">
               <img src="/clientes/cliente5.png" alt="KOSTA AZUL">
-              <p class="client-name">KOSTA AZUL</p>
             </Card>
           
             <Card class="card-client">
               <img src="/clientes/cliente6.jpg" alt="NUCLEO">
-              <p class="client-name">NUCLEO</p>
             </Card>
           
             <Card class="card-client">
               <img src="/clientes/cliente7.jpg" alt="PLAZA DEL SOL">
-              <p class="client-name">PLAZA DEL SOL</p>
             </Card>
           
             <Card class="card-client">
               <img src="/clientes/cliente8.png" alt="UNICENTRO">
-              <p class="client-name">UNICENTRO</p>
             </Card>
           </div>
         </div>

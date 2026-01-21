@@ -15,7 +15,7 @@
             </div>
 
             <div class="news-featured-content">
-              <span class="news-category">RESPONSABILIDAD SOCIAL</span>
+              <p class="news-category">RESPONSABILIDAD SOCIAL</p>
 
               <h2>
                 Sembrando Futuro: Nuestro Compromiso con el Medio Ambiente
@@ -32,7 +32,7 @@
               </p>
 
               <div class="news-meta">
-                <span class="news-date">22 de enero, 2024</span>
+                <p class="news-date">22 de enero, 2024</p>
               </div>
             </div>
           </article>

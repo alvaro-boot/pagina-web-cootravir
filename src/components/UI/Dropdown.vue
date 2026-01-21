@@ -31,7 +31,13 @@ const props = defineProps({
 const isOpen = ref(false)
 
 const toggleDropdown = () => {
-  isOpen.value = !isOpen.value
+  // En móvil, siempre toggle el dropdown
+  if (window.innerWidth < 1025) {
+    isOpen.value = !isOpen.value
+  } else {
+    // En desktop, el hover maneja la apertura
+    isOpen.value = !isOpen.value
+  }
 }
 
 const closeDropdown = () => {
@@ -39,13 +45,15 @@ const closeDropdown = () => {
 }
 
 const handleMouseEnter = () => {
-  if (window.innerWidth >= 1024) {
+  // Solo en desktop (>= 1025px)
+  if (window.innerWidth >= 1025) {
     isOpen.value = true
   }
 }
 
 const handleMouseLeave = () => {
-  if (window.innerWidth >= 1024) {
+  // Solo en desktop (>= 1025px)
+  if (window.innerWidth >= 1025) {
     isOpen.value = false
   }
 }

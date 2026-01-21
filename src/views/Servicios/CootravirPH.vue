@@ -28,10 +28,10 @@
 
           <!-- IMAGEN -->
           <div class="hero-image hero-image-ph">
-            <!-- <img
-              src="/img-carrucel/cootravir_ph.jpg"
+            <img
+              src="/servicios/cootravirph.png"
               alt="Plataforma Cootravir PH"
-            /> -->
+            />
           </div>
 
         </div>
